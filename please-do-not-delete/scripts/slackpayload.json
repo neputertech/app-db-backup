@@ -1,0 +1,29 @@
+{
+	"text": "{{MESSAGE}}",
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "You have a new notification:\n *{{MESSAGE}} from {{HOST}}*"
+			}
+		},
+		{
+			"type": "section",
+			"fields": [
+				{
+					"type": "mrkdwn",
+					"text": "*Type:* \n{{TYPE}}"
+				},
+				{
+					"type": "mrkdwn",
+					"text": "*When:* \n{{DATE}}"
+				},
+				{
+					"type": "mrkdwn",
+					"text": "*Status:* \n\"{{STATUS}}\""
+				}
+			]
+		}
+	]
+}
